@@ -1,0 +1,14 @@
+# Ignore data and cache files
+data/raw/*
+data/processed/*
+!data/.keep
+
+# Ignore virtual environments
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Ignore system files
+*.zip
+*.log
